@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Emoji of the Day
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Purpose and implementation
+
+Purpose of this project was training. This app loads a list of emojis and their description from a json file in the project directory. Based on a date (by default today's date), an emoji is selected from the list and printed. A date selector allows the user to change the date and see past and future 'emojis of the day'.
+
+This ReachJS app is organized as follows:
+### App.js
+
+Main and base app.
+
+#### Header.js
+
+A simple header component.
+
+#### DatePicker.js
+
+Interface component that prints a date provided as property and accepts functions as properties that set the date to today and increment or decrement the current date by N days.
+
+#### Emoji.js
+
+A component that accepts a date property and an array of emoji objects. It selects an emoji based on the provided date and prints the emoji and its name.
 
 ## Available Scripts
 
@@ -14,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+<!-- ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -67,4 +88,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
