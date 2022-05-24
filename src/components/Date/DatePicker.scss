@@ -1,0 +1,33 @@
+.date {
+  width: 100%;
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+  }
+  p {
+    margin: 0.5rem;
+    display: block;
+    &.date {
+      font-size: 1.2rem;
+      color: darkblue;
+      margin-bottom: 1rem;
+    }
+  }
+  button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    &:hover {
+      background-color: rgba(darkblue, 0.1);
+      cursor: pointer;
+    }
+  }
+}

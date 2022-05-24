@@ -1,5 +1,14 @@
 .App {
+  width: 100%;
+  max-width: 420px;
   text-align: center;
+  margin: 2rem auto;
+  font-family: Raleway, 'Lucida Sans Unicode', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 2rem;
+  border: 1px solid rgba(darkblue, 0.3);
+  border-radius: 5px;
 }
 
 .App-logo {

@@ -1,0 +1,28 @@
+.Banner {
+  width: 100%;
+  p {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 50%;
+    min-width: 500px;
+    border: 1px solid rgba(black, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+
+    &.info {
+      border-color: rgba(darkblue, 0.5);
+      background-color: rgba(darkblue, 0.1);
+      color: darkblue;
+      font-style: italic;
+    }
+
+    &.error {
+      border-color: rgba(darkred, 0.5);
+      background-color: rgba(darkred, 0.1);
+      color: darkred;
+      font-weight: bold;
+    }
+  }
+}
